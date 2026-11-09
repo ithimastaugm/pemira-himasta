@@ -25,8 +25,8 @@ export default function Finish() {
       </div>
       <p className="mb-16 px-12 text-lg lg:text-xl 2xl:text-3xl">
         Terima kasih sudah berpartisipasi dalam rangkaian Pemilihan Raya Himasta
-        2024. <br />
-        Ditunggu kedatanganmu di Pemilihan Raya Himasta 2025.
+        2026. <br />
+        Ditunggu kedatanganmu di Pemilihan Raya Himasta 2027.
       </p>
       <button
         onClick={() => router.push("/")}

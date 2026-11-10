@@ -112,9 +112,9 @@ export function CandidateTable({ candidates }: { candidates: Candidate[] }) {
       return
     }
 
-    // Validate file size (5MB)
-    if (file.size > 5 * 1024 * 1024) {
-      setUploadError("Ukuran file terlalu besar. Maksimal 5MB.")
+    // Validate file size (6MB)
+    if (file.size > 6 * 1024 * 1024) {
+      setUploadError("Ukuran file terlalu besar. Maksimal 6MB.")
       return
     }
 
